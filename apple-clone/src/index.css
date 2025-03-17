@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "SF Pro Display", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-sm text-gray-300 hover:text-white transition-colors;
+  }
+  
+  .button-primary {
+    @apply bg-apple-blue text-white px-8 py-2 rounded-full hover:bg-blue-600 transition-colors;
+  }
+  
+  .button-secondary {
+    @apply bg-white bg-opacity-20 text-white px-8 py-2 rounded-full hover:bg-opacity-30 transition-colors;
+  }
+}
