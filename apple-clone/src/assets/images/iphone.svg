@@ -1,0 +1,15 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="500" fill="#f5f5f7"/>
+  <g transform="translate(50,0)">
+    <!-- Gold iPhone -->
+    <rect x="200" y="50" width="100" height="200" rx="15" fill="#FAE5CF"/>
+    <!-- Blue iPhone -->
+    <rect x="150" y="100" width="100" height="200" rx="15" fill="#A7C1D9"/>
+    <!-- White iPhone -->
+    <rect x="100" y="150" width="100" height="200" rx="15" fill="#F5F5F7"/>
+    <!-- Camera System -->
+    <circle cx="270" cy="80" r="12" fill="#1d1d1f"/>
+    <circle cx="270" cy="110" r="12" fill="#1d1d1f"/>
+    <circle cx="270" cy="140" r="12" fill="#1d1d1f"/>
+  </g>
+</svg>
